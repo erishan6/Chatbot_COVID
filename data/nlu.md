@@ -54,3 +54,30 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:corona_info
+- corona
+- coruna
+- covid
+- covid-19
+- covid 19
+- covid19
+- Provide some info about corona
+- info about corona
+- Provide some info about covid
+- info about covid
+- Provide some info about covid19
+- some info about covid19
+- corona virus
+
+## intent:corona_info_one
+- one
+- One
+
+## intent:corona_info_two
+- two
+- Two
+
+## intent:corona_menu
+- menu
+- Menu

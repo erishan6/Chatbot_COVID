@@ -29,3 +29,20 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+  
+## corona chatinfo
+* corona_info
+  - utter_coronainfo
+
+## corona  q1
+* corona_info_one
+  - utter_coronainfo_one
+
+## corona  q2
+* corona_info_two
+  - utter_coronainfo_two
+
+## corona chatinfo menu
+* corona_menu
+  - utter_coronamenu
+  

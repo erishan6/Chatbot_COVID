@@ -9,6 +9,10 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- corona_info
+- corona_info_one
+- corona_info_two
+- corona_menu
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -23,6 +27,37 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_coronainfo:
+  - text: "Namaste \U0001F64F. \n This is Coronavirus (COVID-19) Helpdesk to create\
+      \ awareness and help you and your family stay safe. \n For any emergency \U0001F447\
+      . \n Helpline: 011-23978046 | Toll-Free Number: 1075. \n Please choose from\
+      \ the following options: \n \U0001F447 \U0001F4A1 Tip You can type One, Two\
+      \ or Menu to make a selection of the menu options. \n 1. What is Coronavirus\
+      \ and what are its symptoms? \n 2. How does Coronavirus spread? \n 3. Menu option\
+      \ \n"
+  utter_coronainfo_one:
+  - text: " Coronaviruses are a large family of viruses, some causes illness in people.\
+      \ Its symptoms in humans are\n \U0001F912 Fever \n \U0001F610 Breathing problem\n\
+      \ \U0001F927 Coughing\n \U0001F62B Tightness of chest\n \U0001F443 Running Nose\n\
+      \ \U0001F628 Headache\n \U0001F321 Feeling unwell\n \U0001F637 Pneumonia\n \U0001F489\
+      \ Kidney Failure\nIt can be difficult to identify the disease based on symptoms\
+      \ alone. Check when you should get tested \U0001F447\n https://www.mohfw.gov.in/pdf/FINAL_14_03_2020_ENg.pdf\n\
+      \ You can also view the video on symptoms by Director,AIIMS-Delhi \U0001F447\
+      \n https://youtu.be/E8-UoeWewFI \n \U0001F449 Type Two to know more on How does\
+      \ Coronavirus spread?\n \U0001F449 Type Menu to view the Main Menu\n"
+  utter_coronainfo_two:
+  - text: "Coronavirus spreads from an infected person through \U0001F447\n ♦ Small\
+      \ droplets from the nose or mouth which are spread when a person coughs or sneezes\n\
+      \ ♦ Touching an object or surface with these droplets on it and then touching\
+      \ your mouth, nose, or eyes before washing your hands\n ♦ Close personal contact,\
+      \ such as touching or shaking hands\n Please watch the video for more information\
+      \ \U0001F447\n https://youtu.be/0MgNgcwcKzE\n \U0001F449 Type One to know more\
+      \ on What is Coronavirus and what are its symptoms?\n \U0001F449 Type Menu to\
+      \ view the Main Menu\n"
+  utter_coronamenu:
+  - text: "Please choose from the following options \U0001F447 \n 1. What is Coronavirus\
+      \ and what are its symptoms?\n 2. How does Coronavirus spread? \n \U0001F4A1\
+      \ Tip: You can type One, Two or Menu to make a selection of the menu options.\n"
 actions:
 - utter_greet
 - utter_cheer_up
@@ -30,3 +65,7 @@ actions:
 - utter_happy
 - utter_goodbye
 - utter_iamabot
+- utter_coronainfo
+- utter_coronainfo_one
+- utter_coronainfo_two
+- utter_coronamenu
